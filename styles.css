@@ -1,18 +1,34 @@
-body{
-    background-color: white;
+body {
+    background-image: url("https://www.shutterstock.com/image-photo/sky-cloud-blue-nature-background-600nw-2598302819.jpg");
+    background-size: cover;
 }
 .card{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 60px;
+}
+
+#HeaderMenu{
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    border: black solid 1px;
+    border-radius: 10px;
 
 }
-#temps{
+
+#today{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: cornflowerblue;
     height: 200px;
     width: stretch;
+    border: black solid 1px;
+    border-radius: 10px;
 }
 #temp1{
     display: flex;
@@ -44,4 +60,14 @@ body{
     border-radius: 10px;
     height: 170px;
     width: 150px;
+}
+#weeks{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    height: 200px;
+    width: stretch;
+    border: black solid 1px;
+    border-radius: 10px;
 }

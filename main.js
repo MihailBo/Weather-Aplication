@@ -26,4 +26,11 @@ async function wind(){
     document.getElementById('wind1').innerHTML = 'Wind <br>' + 'Speed: ' + windSpeed + '<br>' + 'Direction: ' + windDirection
 }
 wind();
-
+// async function temp(){
+//     const url = "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=temperature_2m&wind_speed_unit=ms&start_date=2026-03-26&end_date=2026-04-09";
+//     const response = await fetch(url);
+//     const json = await response.json();
+//     const max = json.daily.temperature_2m_max[0];
+//     document.getElementById("day1").innerHTML = "max temp " + max;
+// }
+// temp_day1();
