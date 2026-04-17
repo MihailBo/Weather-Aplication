@@ -61,7 +61,7 @@ body {
     height: 170px;
     width: 150px;
 }
-#weeks{
+#weeksTemp{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -70,4 +70,168 @@ body {
     width: stretch;
     border: black solid 1px;
     border-radius: 10px;
+}
+#weeksWind{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    height: 200px;
+    width: stretch;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+#day1Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day2Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day3Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day4Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day5Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day6Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day7Temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day1Wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day2Wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day3Wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day4Wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day5Wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day6Wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day7Wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
 }
