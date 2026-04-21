@@ -6,7 +6,7 @@ async function temp() {
 
     const weather = json.current_weather;
     // document.getElementById("temp2").textContent = 'Temp';
-    document.getElementById("temp1").textContent = 'Temp\n' + `${weather.temperature}-C`;
+    document.getElementById("temp1").textContent = 'Temp\n' + `${weather.temperature} °C `;
 }
 temp();
 async function rain(){
@@ -23,7 +23,7 @@ async function wind(){
     const json = await response.json();
     const windSpeed = json.hourly.wind_speed_10m[0];
     const windDirection = json.hourly.wind_direction_10m[0];
-    document.getElementById('wind1').innerHTML = 'Wind <br>' + 'Speed: ' + windSpeed + '<br>' + 'Direction: ' + windDirection
+    document.getElementById('wind1').innerHTML = 'Wind <br>' + 'Speed- ' + windSpeed + '<br>' + 'Direction- ' + windDirection
 }
 wind();
 const date = new Date();
@@ -36,9 +36,9 @@ async function week(){
         const maxTemp = json.daily.temperature_2m_max[i];
         const minTemp = json.daily.temperature_2m_min[i];
         const midTemp = (maxTemp + minTemp) / 2;
-        document.getElementById(`day${i+1}Temp`).innerHTML = "max temp: " + maxTemp.toFixed(1) + "<br>" +"min temp: " + minTemp.toFixed(1) + "<br>" + "average temp: " + midTemp.toFixed(1);
+        document.getElementById(`day${i+1}Temp`).innerHTML = "Max- " + maxTemp.toFixed(1) + "°C" + "<br>" +"Min- " + minTemp.toFixed(1) + "°C"  + "<br>" + "Average- " + midTemp.toFixed(1) + "°C" ;
         const wind = json.daily.wind_speed_10m_max[i];
-        document.getElementById(`day${i+1}Wind`).innerHTML = "Wind speed: " + wind;
+        document.getElementById(`day${i+1}Wind`).innerHTML = "Wind speed: " + wind + " m/s";
 
     }
 }

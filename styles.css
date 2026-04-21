@@ -23,12 +23,21 @@ body {
 #today{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: cornflowerblue;
+    flex-direction: column;
+    gap: 10px;
     height: 200px;
     width: stretch;
-    border: black solid 1px;
-    border-radius: 10px;
+
+}
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: stretch;
+}
+#header1{
+    color: white;
 }
 #temp1{
     display: flex;
@@ -60,6 +69,23 @@ body {
     border-radius: 10px;
     height: 170px;
     width: 150px;
+}
+#weekshead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#weeksForc{
+    color: white;
+
+}
+#weeksTempHeader{
+    color: white;
+}
+#weeksWindHeader{
+    color: white;
 }
 #weeksTemp{
     display: flex;
