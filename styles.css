@@ -10,13 +10,8 @@ body {
 }
 
 #HeaderMenu{
-    background-color: cornflowerblue;
     color: white;
     display: flex;
-    /*align-items: center;*/
-    /*flex-direction: column;*/
-    border: black solid 1px;
-    border-radius: 10px;
 
 }
 
@@ -76,6 +71,14 @@ body {
     align-items: center;
     gap: 15px;
 }
+.dates{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: stretch;
+    color: white;
+}
 
 #weeksForc{
     color: white;
@@ -85,6 +88,9 @@ body {
     color: white;
 }
 #weeksWindHeader{
+    color: white;
+}
+#weeksRainHeader{
     color: white;
 }
 #weeksTemp{
@@ -98,6 +104,16 @@ body {
     border-radius: 10px;
 }
 #weeksWind{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    height: 200px;
+    width: stretch;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+#weeksRain{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -261,3 +277,81 @@ body {
     height: 170px;
     width: 150px;
 }
+#day1Rain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day2Rain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day3Rain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day4Rain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day5Rain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day6Rain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+#day7Rain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 170px;
+    width: 150px;
+}
+
